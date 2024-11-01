@@ -1,0 +1,20 @@
+{
+  "name": "jasmine-pnpm-cjs-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jasmine"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@types/node": "^20.17.2",
+    "allure-jasmine": "^3.0.5",
+    "allure-js-commons": "^3.0.5",
+    "jasmine": "^5.4.0",
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2"
+  }
+}
