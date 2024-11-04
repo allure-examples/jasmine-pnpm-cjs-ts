@@ -12,20 +12,20 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4
       '@types/node':
-        specifier: ^20.17.2
-        version: 20.17.2
+        specifier: ^20.17.6
+        version: 20.17.6
       allure-jasmine:
-        specifier: ^3.0.5
-        version: 3.0.5(jasmine@5.4.0)
+        specifier: ^3.0.6
+        version: 3.0.6(jasmine@5.4.0)
       allure-js-commons:
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^3.0.6
+        version: 3.0.6
       jasmine:
         specifier: ^5.4.0
         version: 5.4.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.17.2)(typescript@5.6.3)
+        version: 10.9.2(@types/node@20.17.6)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -69,8 +69,8 @@ packages:
   '@types/jasmine@5.1.4':
     resolution: {integrity: sha512-px7OMFO/ncXxixDe1zR13V1iycqWae0MxTaw62RpFlksUi5QuNWgQJFkTQjIOvrmutJbI7Fp2Y2N1F6D2R4G6w==}
 
-  '@types/node@20.17.2':
-    resolution: {integrity: sha512-OOHK4sjXqkL7yQ7VEEHcf6+0jSvKjWqwnaCtY7AKD/VLEvRHMsxxu7eI8ErnjxHS8VwmekD4PeVCpu4qZEZSxg==}
+  '@types/node@20.17.6':
+    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
 
   acorn-walk@8.3.4:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
@@ -81,18 +81,18 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  allure-jasmine@3.0.5:
-    resolution: {integrity: sha512-DA5wCw8TnolNFu2ByH7SWtMirBxxQvI4Xf8nXe2FQfHuoY3uvh1TJcUChGqnU4TJH4EJOEGtsAFSFmFaeLf6TQ==}
+  allure-jasmine@3.0.6:
+    resolution: {integrity: sha512-tLiHJ9TrU7a8HCQJD+sKhKAajuWvZw9xTStGlLHsJ5kc6nx2WrigEhJPl5C62w9v6sX3KY72OsnLsaujKsHNxw==}
     peerDependencies:
       jasmine: '>=2.7.0'
     peerDependenciesMeta:
       jasmine:
         optional: true
 
-  allure-js-commons@3.0.5:
-    resolution: {integrity: sha512-kIrai/gDbJdwvN2pW5dYN2W7HrbrRSu8VoodBWWEO36e/AVPsEUoQ5owzRtEknYplRBD+lnhyn3a5xgM9oAsAg==}
+  allure-js-commons@3.0.6:
+    resolution: {integrity: sha512-q3r3Cj3sG6hR7jH8SGkfNleLJK+yFAGwzyFDGzIfu+WLZ4yeFcBZHkWuq7QreRpxvsZWNby/38jhrj5yYFwQ2g==}
     peerDependencies:
-      allure-playwright: 3.0.5
+      allure-playwright: 3.0.6
     peerDependenciesMeta:
       allure-playwright:
         optional: true
@@ -318,7 +318,7 @@ snapshots:
 
   '@types/jasmine@5.1.4': {}
 
-  '@types/node@20.17.2':
+  '@types/node@20.17.6':
     dependencies:
       undici-types: 6.19.8
 
@@ -328,15 +328,15 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  allure-jasmine@3.0.5(jasmine@5.4.0):
+  allure-jasmine@3.0.6(jasmine@5.4.0):
     dependencies:
-      allure-js-commons: 3.0.5
+      allure-js-commons: 3.0.6
     optionalDependencies:
       jasmine: 5.4.0
     transitivePeerDependencies:
       - allure-playwright
 
-  allure-js-commons@3.0.5:
+  allure-js-commons@3.0.6:
     dependencies:
       md5: 2.3.0
 
@@ -470,14 +470,14 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  ts-node@10.9.2(@types/node@20.17.2)(typescript@5.6.3):
+  ts-node@10.9.2(@types/node@20.17.6)(typescript@5.6.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.17.2
+      '@types/node': 20.17.6
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
